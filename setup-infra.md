@@ -61,7 +61,7 @@ eksctl version
 ## Create EKS CLUSTER
 
 ```bash
-eksctl create cluster --name=EKS-1 \
+eksctl create cluster --name=EKS-2 \
                       --region=ap-south-1 \
                       --zones=ap-south-1a,ap-south-1b \
                       --without-nodegroup
