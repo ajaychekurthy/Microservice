@@ -71,7 +71,7 @@ eksctl utils associate-iam-oidc-provider \
     --cluster EKS-1 \
     --approve
 
-eksctl create nodegroup --cluster=EKS-1 \
+eksctl create nodegroup --cluster=EKS-2 \
                        --region=ap-south-1 \
                        --name=node2 \
                        --node-type=t3.medium \
